@@ -11,7 +11,7 @@ The key functions of the Pokedex
         - AI: "Pikachu is an electric mouse type Pokemon"
         - Human: "How does it evolve"
         - AI: By using a Thunderstone, though in this particular episode something something...
-- Display an image of the pokemon
+- Display an image of the pokemon, with it's shiny variant
 - Produce the sound ("cry") of the pokemon
 - Maybe be able to tell you which regions you can find it, even better if it can tell you the sub-regions.
 
