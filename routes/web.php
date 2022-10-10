@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::prefix('pokedex')->group(function () {
+    Route::controller(\App\Http\Controllers\PokedexController::class)->group(function () {
+        Route::get('/{pokemon}', 'search');
+        #Route::post('/orders', 'store');
+    });
+});
